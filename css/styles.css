@@ -378,13 +378,13 @@ input[type="radio"] {
   transform: translate(0, 1px);
 }
 
-/*#day-11:checked ~ .ui-calendar .ui-day[for="day-11"]:before {
+#day-11:checked~.ui-calendar .ui-day[for="day-11"]:before {
   -webkit-transform: none;
-          transform: none;
+  transform: none;
   opacity: 1;
 }
 
-#day-12:checked ~ .ui-calendar .ui-day[for="day-12"] {
+/*#day-12:checked ~ .ui-calendar .ui-day[for="day-12"] {
   -webkit-transform: translate(0, 1px);
           transform: translate(0, 1px);
 }
