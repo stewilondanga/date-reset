@@ -206,15 +206,16 @@ input[type="radio"] {
   cursor: pointer;
 }
 
-/*.ui-day:before {
+.ui-day:before {
   content: attr(data-day);
   transition-delay: calc(0s + (30 - var(--day)) * 20ms);
   transition-duration: 0.4s;
   -webkit-transform: scale(0);
-          transform: scale(0);
+  transform: scale(0);
   opacity: 0;
 }
-.ui-day:nth-of-type(n + 1):nth-of-type(-n + 7) {
+
+/*.ui-day:nth-of-type(n + 1):nth-of-type(-n + 7) {
   --y: 9vmin;
 }
 .ui-day:nth-of-type(n + 8):nth-of-type(-n + 14) {
