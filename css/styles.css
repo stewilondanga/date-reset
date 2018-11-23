@@ -627,10 +627,11 @@ input:checked~.ui-reset {
   transform: scaleY(0.1428571429);
 }
 
-/*.ui-calendar .ui-header {
+.ui-calendar .ui-header {
   pointer-events: auto;
 }
-.ui-calendar:focus {
+
+/*.ui-calendar:focus {
   pointer-events: auto;
 }
 .ui-calendar:focus > .ui-header {
