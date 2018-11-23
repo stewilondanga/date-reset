@@ -70,19 +70,20 @@ input[type="radio"] {
   position: relative;
 }
 
-/*.ui-header {
+.ui-header {
   cursor: pointer;
   position: absolute;
   top: 0;
   left: 0;
   -webkit-transform: translateX(3vmin);
-          transform: translateX(3vmin);
+  transform: translateX(3vmin);
   width: 100%;
   height: 9vmin;
   line-height: 9vmin;
   text-transform: uppercase;
 }
-.ui-header > .ui-text {
+
+/*.ui-header > .ui-text {
   position: absolute;
   height: 100%;
   -webkit-transform: translateX(0);
