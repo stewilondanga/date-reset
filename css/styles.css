@@ -3,6 +3,16 @@
   outline: none;
 }
 
+*, *:before, *:after {
+  transition-property: opacity, -webkit-transform;
+  transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform;
+  transition-duration: 1.2s;
+  transition-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+  box-sizing: border-box;
+  position: relative;
+}
+
 body {
   background-color: #649EAA;
   display: flex;
@@ -14,15 +24,6 @@ body {
   color: #242424;
 }
 
-*, *:before, *:after {
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  transition-duration: 1.2s;
-  transition-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
-  box-sizing: border-box;
-  position: relative;
-}
 /*body {
   text-align: center;
   font-family: courier;
