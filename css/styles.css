@@ -703,12 +703,12 @@ input:checked~.ui-calendar:not(:focus) .ui-day:before {
   transition-delay: calc((30 - var(--day)) * 10ms);
 }
 
-/*.containers {
+.containers {
   width: 520px;
   margin: 20px auto;
 }
 
-#contact h1 {
+/*#contact h1 {
   font-family: helvetica;
   font-weight: normal;
   text-align: center;
