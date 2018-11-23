@@ -46,7 +46,7 @@ body, html {
   height: 1.5em;
 }
 
-/*.ui-bg {
+.ui-bg {
   position: absolute;
   top: 0;
   left: 0;
@@ -54,16 +54,12 @@ body, html {
   height: 100%;
   background-color: #fff;
   -webkit-transform-origin: top center;
-          transform-origin: top center;
+  transform-origin: top center;
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
   transition-duration: 0.6s;
   transition-delay: 0.48s;
   overflow: hidden;
 }
-
-
-
-
 
 /*input[type="radio"] {
   position: absolute;
