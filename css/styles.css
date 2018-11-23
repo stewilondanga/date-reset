@@ -699,11 +699,11 @@ input:checked~.ui-calendar .ui-text.-month-year:before, input:checked~.ui-calend
   transform: scale(2, 0) translateX(-500%) rotate(135deg);
 }
 
-/*input:checked ~ .ui-calendar:not(:focus) .ui-day:before {
+input:checked~.ui-calendar:not(:focus) .ui-day:before {
   transition-delay: calc((30 - var(--day)) * 10ms);
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
