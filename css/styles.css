@@ -345,13 +345,13 @@ input[type="radio"] {
   transform: translate(0, 1px);
 }
 
-/*#day-8:checked ~ .ui-calendar .ui-day[for="day-8"]:before {
+#day-8:checked~.ui-calendar .ui-day[for="day-8"]:before {
   -webkit-transform: none;
-          transform: none;
+  transform: none;
   opacity: 1;
 }
 
-#day-9:checked ~ .ui-calendar .ui-day[for="day-9"] {
+/*#day-9:checked ~ .ui-calendar .ui-day[for="day-9"] {
   -webkit-transform: translate(0, 1px);
           transform: translate(0, 1px);
 }
