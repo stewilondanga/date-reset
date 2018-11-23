@@ -671,11 +671,12 @@ input:checked~.ui-calendar>.ui-header {
   transform: translateX(7.5vmin);
 }
 
-/*input:checked ~ .ui-calendar > .ui-header > .ui-text {
+input:checked~.ui-calendar>.ui-header>.ui-text {
   -webkit-transform: none;
-          transform: none;
+  transform: none;
 }
-input:checked ~ .ui-calendar > .ui-header > .ui-text.-empty {
+
+/*input:checked ~ .ui-calendar > .ui-header > .ui-text.-empty {
   opacity: 0;
 }
 input:checked ~ .ui-calendar > .ui-header > .ui-text.-month-year {
