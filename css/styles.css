@@ -215,10 +215,11 @@ input[type="radio"] {
   opacity: 0;
 }
 
-/*.ui-day:nth-of-type(n + 1):nth-of-type(-n + 7) {
+.ui-day:nth-of-type(n+1):nth-of-type(-n+7) {
   --y: 9vmin;
 }
-.ui-day:nth-of-type(n + 8):nth-of-type(-n + 14) {
+
+/*.ui-day:nth-of-type(n + 8):nth-of-type(-n + 14) {
   --y: 18vmin;
 }
 .ui-day:nth-of-type(n + 15):nth-of-type(-n + 21) {
