@@ -653,12 +653,13 @@ input:checked~.ui-reset {
   opacity: 1;
 }
 
-/*.ui-calendar:focus > .ui-bg {
+.ui-calendar:focus>.ui-bg {
   -webkit-transform: none;
-          transform: none;
+  transform: none;
   transition-delay: 0s;
 }
-.ui-calendar:focus .ui-day:before {
+
+/*.ui-calendar:focus .ui-day:before {
   -webkit-transform: none;
           transform: none;
   opacity: 1;
