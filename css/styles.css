@@ -689,11 +689,12 @@ input:checked~.ui-calendar .ui-text.-month-year:before, input:checked~.ui-calend
   transition-delay: 0s !important;
 }
 
-/*.ui-calendar:not(:focus) .ui-text.-month-year:before {
+.ui-calendar:not(:focus) .ui-text.-month-year:before {
   -webkit-transform: scale(2, 0) translateX(500%) rotate(-45deg);
-          transform: scale(2, 0) translateX(500%) rotate(-45deg);
+  transform: scale(2, 0) translateX(500%) rotate(-45deg);
 }
-.ui-calendar:not(:focus) .ui-text.-month-year:after {
+
+/*.ui-calendar:not(:focus) .ui-text.-month-year:after {
   -webkit-transform: scale(2, 0) translateX(-500%) rotate(135deg);
           transform: scale(2, 0) translateX(-500%) rotate(135deg);
 }
