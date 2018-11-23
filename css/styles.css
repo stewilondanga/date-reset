@@ -587,13 +587,13 @@ input[type="radio"] {
   transform: translate(0, 1px);
 }
 
-/*#day-30:checked ~ .ui-calendar .ui-day[for="day-30"]:before {
+#day-30:checked~.ui-calendar .ui-day[for="day-30"]:before {
   -webkit-transform: none;
-          transform: none;
+  transform: none;
   opacity: 1;
 }
 
-.ui-reset {
+/*.ui-reset {
   position: absolute;
   -moz-appearance: none;
        appearance: none;
