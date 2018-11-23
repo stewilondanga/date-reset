@@ -610,12 +610,12 @@ input[type="radio"] {
   pointer-events: none;
 }
 
-/*input:checked ~ .ui-reset {
+input:checked~.ui-reset {
   opacity: 0.5;
   pointer-events: auto;
 }
 
-.ui-calendar {
+/*.ui-calendar {
   height: 63vmin;
   width: 81vmin;
   /* Fix for clickable items outside of collapsed height */
