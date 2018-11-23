@@ -140,13 +140,13 @@ input[type="radio"] {
   transition-delay: calc(var(--row) * 60ms);
 }
 
-/*.ui-column {
-  -webkit-transform: translate(calc(  -8.4375vmin  + ((var(--columns)) * 9vmin)  + (var(--col) - 1) * 6.75vmin  / var(--columns)  ), -7.3125vmin) scaleY(0.1275);
-          transform: translate(calc(  -8.4375vmin  + ((var(--columns)) * 9vmin)  + (var(--col) - 1) * 6.75vmin  / var(--columns)  ), -7.3125vmin) scaleY(0.1275);
-  transition-delay: calc( ( (var(--columns) - var(--col)) * 60ms ));
+.ui-column {
+  -webkit-transform: translate(calc( -8.4375vmin + ((var(--columns)) * 9vmin) + (var(--col) - 1) * 6.75vmin / var(--columns)), -7.3125vmin) scaleY(0.1275);
+  transform: translate(calc( -8.4375vmin + ((var(--columns)) * 9vmin) + (var(--col) - 1) * 6.75vmin / var(--columns)), -7.3125vmin) scaleY(0.1275);
+  transition-delay: calc( ( (var(--columns) - var(--col)) * 60ms));
 }
 
-.ui-calendar:focus .ui-column,
+/*.ui-calendar:focus .ui-column,
 .ui-calendar:focus .ui-row {
   border-color: #E3E3E3;
 }
