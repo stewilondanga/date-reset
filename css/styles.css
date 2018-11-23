@@ -680,10 +680,11 @@ input:checked~.ui-calendar>.ui-header>.ui-text.-empty {
   opacity: 0;
 }
 
-/*input:checked ~ .ui-calendar > .ui-header > .ui-text.-month-year {
+input:checked~.ui-calendar>.ui-header>.ui-text.-month-year {
   opacity: 1;
 }
-input:checked ~ .ui-calendar .ui-text.-month-year:before, input:checked ~ .ui-calendar .ui-text.-month-year:after {
+
+/*input:checked ~ .ui-calendar .ui-text.-month-year:before, input:checked ~ .ui-calendar .ui-text.-month-year:after {
   opacity: 0;
   transition-delay: 0s !important;
 }
