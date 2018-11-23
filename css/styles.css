@@ -622,11 +622,12 @@ input:checked~.ui-reset {
   pointer-events: none;
 }
 
-/*.ui-calendar > .ui-bg {
+.ui-calendar>.ui-bg {
   -webkit-transform: scaleY(0.1428571429);
-          transform: scaleY(0.1428571429);
+  transform: scaleY(0.1428571429);
 }
-.ui-calendar .ui-header {
+
+/*.ui-calendar .ui-header {
   pointer-events: auto;
 }
 .ui-calendar:focus {
