@@ -645,10 +645,11 @@ input:checked~.ui-reset {
   transform: translateX(-50%);
 }
 
-/*.ui-calendar:focus > .ui-header > .ui-text.-empty {
+.ui-calendar:focus>.ui-header>.ui-text.-empty {
   opacity: 0;
 }
-.ui-calendar:focus > .ui-header > .ui-text.-month-year {
+
+/*.ui-calendar:focus > .ui-header > .ui-text.-month-year {
   opacity: 1;
 }
 .ui-calendar:focus > .ui-bg {
