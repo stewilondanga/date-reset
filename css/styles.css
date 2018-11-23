@@ -649,10 +649,11 @@ input:checked~.ui-reset {
   opacity: 0;
 }
 
-/*.ui-calendar:focus > .ui-header > .ui-text.-month-year {
+.ui-calendar:focus>.ui-header>.ui-text.-month-year {
   opacity: 1;
 }
-.ui-calendar:focus > .ui-bg {
+
+/*.ui-calendar:focus > .ui-bg {
   -webkit-transform: none;
           transform: none;
   transition-delay: 0s;
