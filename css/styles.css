@@ -251,10 +251,11 @@ input[type="radio"] {
   --x: 36vmin;
 }
 
-/*.ui-day:nth-of-type(7n + 5) {
+.ui-day:nth-of-type(7n+5) {
   --x: 45vmin;
 }
-.ui-day:nth-of-type(7n + 6) {
+
+/*.ui-day:nth-of-type(7n + 6) {
   --x: 54vmin;
 }
 .ui-day:nth-of-type(7n + 7) {
