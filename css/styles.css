@@ -532,13 +532,13 @@ input[type="radio"] {
   transform: translate(0, 1px);
 }
 
-/*#day-25:checked ~ .ui-calendar .ui-day[for="day-25"]:before {
+#day-25:checked~.ui-calendar .ui-day[for="day-25"]:before {
   -webkit-transform: none;
-          transform: none;
+  transform: none;
   opacity: 1;
 }
 
-#day-26:checked ~ .ui-calendar .ui-day[for="day-26"] {
+/*#day-26:checked ~ .ui-calendar .ui-day[for="day-26"] {
   -webkit-transform: translate(0, 1px);
           transform: translate(0, 1px);
 }
