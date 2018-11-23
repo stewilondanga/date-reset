@@ -109,13 +109,12 @@ input[type="radio"] {
   pointer-events: none;
 }
 
-/*.ui-column,
-.ui-row {
+.ui-column, .ui-row {
   position: absolute;
   border: solid 0px;
   border-color: #797979;
   -webkit-transform-origin: top right;
-          transform-origin: top right;
+  transform-origin: top right;
   transition-duration: 0.6s;
   transition-timing-function: cubic-bezier(0.5, 0, 0.55, 1);
   transition-property: border-color, -webkit-transform;
@@ -123,7 +122,7 @@ input[type="radio"] {
   transition-property: transform, border-color, -webkit-transform;
 }
 
-.ui-row {
+/*.ui-row {
   left: 0;
   right: 0;
   border-top-width: 1px;
