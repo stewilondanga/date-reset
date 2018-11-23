@@ -156,12 +156,11 @@ input[type="radio"] {
   transition-delay: calc(var(--row) * 40ms);
 }
 
-/*.ui-calendar:focus .ui-column {
-  -webkit-transform: translate(calc(  (var(--col) - 1) * 9vmin  ), 0em) scaleY(1);
-          transform: translate(calc(  (var(--col) - 1) * 9vmin  ), 0em) scaleY(1);
-  transition-delay: calc( ( (var(--columns) - var(--col)) * 40ms ));
+.ui-calendar:focus .ui-column {
+  -webkit-transform: translate(calc( (var(--col) - 1) * 9vmin), 0em) scaleY(1);
+  transform: translate(calc( (var(--col) - 1) * 9vmin), 0em) scaleY(1);
+  transition-delay: calc( ( (var(--columns) - var(--col)) * 40ms));
 }
-
 
 /*.ui-text {
   white-space: nowrap;
