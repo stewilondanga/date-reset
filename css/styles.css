@@ -635,11 +635,12 @@ input:checked~.ui-reset {
   pointer-events: auto;
 }
 
-/*.ui-calendar:focus > .ui-header {
+.ui-calendar:focus>.ui-header {
   -webkit-transform: translateX(50%);
-          transform: translateX(50%);
+  transform: translateX(50%);
 }
-.ui-calendar:focus > .ui-header > .ui-text {
+
+/*.ui-calendar:focus > .ui-header > .ui-text {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
