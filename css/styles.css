@@ -83,17 +83,18 @@ input[type="radio"] {
   text-transform: uppercase;
 }
 
-/*.ui-header > .ui-text {
+.ui-header>.ui-text {
   position: absolute;
   height: 100%;
   -webkit-transform: translateX(0);
-          transform: translateX(0);
+  transform: translateX(0);
   display: flex;
   justify-content: center;
   align-items: center;
   letter-spacing: inherit;
 }
-.ui-header > .ui-text.-month-year {
+
+/*.ui-header > .ui-text.-month-year {
   opacity: 0;
 }
 
