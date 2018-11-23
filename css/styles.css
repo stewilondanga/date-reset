@@ -66,11 +66,11 @@ input[type="radio"] {
   opacity: 0;
 }
 
-/*.ui-calendar {
+.ui-calendar {
   position: relative;
 }
 
-.ui-header {
+/*.ui-header {
   cursor: pointer;
   position: absolute;
   top: 0;
