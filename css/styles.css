@@ -301,13 +301,13 @@ input[type="radio"] {
   transform: translate(0, 1px);
 }
 
-/*#day-4:checked ~ .ui-calendar .ui-day[for="day-4"]:before {
+#day-4:checked~.ui-calendar .ui-day[for="day-4"]:before {
   -webkit-transform: none;
-          transform: none;
+  transform: none;
   opacity: 1;
 }
 
-#day-5:checked ~ .ui-calendar .ui-day[for="day-5"] {
+/*#day-5:checked ~ .ui-calendar .ui-day[for="day-5"] {
   -webkit-transform: translate(0, 1px);
           transform: translate(0, 1px);
 }
