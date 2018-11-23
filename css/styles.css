@@ -162,11 +162,12 @@ input[type="radio"] {
   transition-delay: calc( ( (var(--columns) - var(--col)) * 40ms));
 }
 
-/*.ui-text {
+.ui-text {
   white-space: nowrap;
   font-size: 3vmin;
 }
-.ui-text.-month-year:before, .ui-text.-month-year:after {
+
+/*.ui-text.-month-year:before, .ui-text.-month-year:after {
   position: absolute;
   content: '';
   top: 3vmin;
