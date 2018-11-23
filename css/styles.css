@@ -193,7 +193,7 @@ input[type="radio"] {
   right: -18vmin;
 }
 
-/*.ui-day {
+.ui-day {
   display: flex;
   position: absolute;
   height: 9vmin;
@@ -201,11 +201,12 @@ input[type="radio"] {
   justify-content: center;
   align-items: center;
   -webkit-transform: translate(var(--x, 0), var(--y));
-          transform: translate(var(--x, 0), var(--y));
+  transform: translate(var(--x, 0), var(--y));
   font-size: 3vmin;
   cursor: pointer;
 }
-.ui-day:before {
+
+/*.ui-day:before {
   content: attr(data-day);
   transition-delay: calc(0s + (30 - var(--day)) * 20ms);
   transition-duration: 0.4s;
