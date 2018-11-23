@@ -640,11 +640,12 @@ input:checked~.ui-reset {
   transform: translateX(50%);
 }
 
-/*.ui-calendar:focus > .ui-header > .ui-text {
+.ui-calendar:focus>.ui-header>.ui-text {
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
-.ui-calendar:focus > .ui-header > .ui-text.-empty {
+
+/*.ui-calendar:focus > .ui-header > .ui-text.-empty {
   opacity: 0;
 }
 .ui-calendar:focus > .ui-header > .ui-text.-month-year {
