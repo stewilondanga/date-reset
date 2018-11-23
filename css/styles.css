@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+body {
+  background-color: #649EAA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 1px;
+  overflow: hidden;
+  color: #242424;
+}
 
 /*body {
   text-align: center;
@@ -38,16 +48,6 @@
   overflow: hidden;
 }
 
-body {
-  background-color: #649EAA;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Roboto Condensed', sans-serif;
-  letter-spacing: 1px;
-  overflow: hidden;
-  color: #242424;
-}
 
 *:focus {
   outline: none;
@@ -582,6 +582,7 @@ input:checked ~ .ui-reset {
   height: 63vmin;
   width: 81vmin;
   /* Fix for clickable items outside of collapsed height */
+
 /*  pointer-events: none;
 }
 .ui-calendar > .ui-bg {
