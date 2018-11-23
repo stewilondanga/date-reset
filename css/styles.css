@@ -666,11 +666,12 @@ input:checked~.ui-reset {
   transition-delay: calc(0.6s + var(--day) * 20ms);
 }
 
-/*input:checked ~ .ui-calendar > .ui-header {
+input:checked~.ui-calendar>.ui-header {
   -webkit-transform: translateX(7.5vmin);
-          transform: translateX(7.5vmin);
+  transform: translateX(7.5vmin);
 }
-input:checked ~ .ui-calendar > .ui-header > .ui-text {
+
+/*input:checked ~ .ui-calendar > .ui-header > .ui-text {
   -webkit-transform: none;
           transform: none;
 }
