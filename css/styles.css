@@ -259,11 +259,11 @@ input[type="radio"] {
   --x: 54vmin;
 }
 
-/*.ui-day:nth-of-type(7n + 7) {
+.ui-day:nth-of-type(7n+7) {
   --x: 63vmin;
 }
 
-#day-1:checked ~ .ui-calendar .ui-day[for="day-1"] {
+/*#day-1:checked ~ .ui-calendar .ui-day[for="day-1"] {
   -webkit-transform: translate(0, 1px);
           transform: translate(0, 1px);
 }
