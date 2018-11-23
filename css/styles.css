@@ -351,11 +351,12 @@ input[type="radio"] {
   opacity: 1;
 }
 
-/*#day-9:checked ~ .ui-calendar .ui-day[for="day-9"] {
+#day-9:checked~.ui-calendar .ui-day[for="day-9"] {
   -webkit-transform: translate(0, 1px);
-          transform: translate(0, 1px);
+  transform: translate(0, 1px);
 }
-#day-9:checked ~ .ui-calendar .ui-day[for="day-9"]:before {
+
+/*#day-9:checked ~ .ui-calendar .ui-day[for="day-9"]:before {
   -webkit-transform: none;
           transform: none;
   opacity: 1;
