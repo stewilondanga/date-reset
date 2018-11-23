@@ -98,7 +98,7 @@ input[type="radio"] {
   opacity: 0;
 }
 
-/*.ui-grid {
+.ui-grid {
   position: absolute;
   top: 0;
   right: 0;
@@ -109,7 +109,7 @@ input[type="radio"] {
   pointer-events: none;
 }
 
-.ui-column,
+/*.ui-column,
 .ui-row {
   position: absolute;
   border: solid 0px;
