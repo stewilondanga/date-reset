@@ -186,14 +186,14 @@ input[type="radio"] {
   left: -18vmin;
 }
 
-/*.ui-text.-month-year:after {
+.ui-text.-month-year:after {
   -webkit-transform: scale(1, 1) translateX(0) rotate(135deg);
-          transform: scale(1, 1) translateX(0) rotate(135deg);
+  transform: scale(1, 1) translateX(0) rotate(135deg);
   transition-delay: 0.8s;
   right: -18vmin;
 }
 
-.ui-day {
+/*.ui-day {
   display: flex;
   position: absolute;
   height: 9vmin;
