@@ -619,9 +619,10 @@ input:checked~.ui-reset {
   height: 63vmin;
   width: 81vmin;
   /* Fix for clickable items outside of collapsed height */
-  /*  pointer-events: none;
+  pointer-events: none;
 }
-.ui-calendar > .ui-bg {
+
+/*.ui-calendar > .ui-bg {
   -webkit-transform: scaleY(0.1428571429);
           transform: scaleY(0.1428571429);
 }
