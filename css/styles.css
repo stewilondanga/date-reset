@@ -167,7 +167,7 @@ input[type="radio"] {
   font-size: 3vmin;
 }
 
-/*.ui-text.-month-year:before, .ui-text.-month-year:after {
+.ui-text.-month-year:before, .ui-text.-month-year:after {
   position: absolute;
   content: '';
   top: 3vmin;
@@ -178,7 +178,8 @@ input[type="radio"] {
   border-bottom: none;
   transition-duration: 0.8s;
 }
-.ui-text.-month-year:before {
+
+/*.ui-text.-month-year:before {
   -webkit-transform: scale(1, 1) translateX(0) rotate(-45deg);
           transform: scale(1, 1) translateX(0) rotate(-45deg);
   transition-delay: 0.4s;
