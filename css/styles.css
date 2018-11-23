@@ -150,12 +150,13 @@ input[type="radio"] {
   border-color: #E3E3E3;
 }
 
-/*.ui-calendar:focus .ui-row {
-  -webkit-transform: translate(0em, calc(  (var(--row) - 1)  * 9vmin  )) scaleX(1);
-          transform: translate(0em, calc(  (var(--row) - 1)  * 9vmin  )) scaleX(1);
+.ui-calendar:focus .ui-row {
+  -webkit-transform: translate(0em, calc( (var(--row) - 1) * 9vmin)) scaleX(1);
+  transform: translate(0em, calc( (var(--row) - 1) * 9vmin)) scaleX(1);
   transition-delay: calc(var(--row) * 40ms);
 }
-.ui-calendar:focus .ui-column {
+
+/*.ui-calendar:focus .ui-column {
   -webkit-transform: translate(calc(  (var(--col) - 1) * 9vmin  ), 0em) scaleY(1);
           transform: translate(calc(  (var(--col) - 1) * 9vmin  ), 0em) scaleY(1);
   transition-delay: calc( ( (var(--columns) - var(--col)) * 40ms ));
