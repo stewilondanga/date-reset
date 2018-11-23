@@ -450,11 +450,12 @@ input[type="radio"] {
   opacity: 1;
 }
 
-/*#day-18:checked ~ .ui-calendar .ui-day[for="day-18"] {
+#day-18:checked~.ui-calendar .ui-day[for="day-18"] {
   -webkit-transform: translate(0, 1px);
-          transform: translate(0, 1px);
+  transform: translate(0, 1px);
 }
-#day-18:checked ~ .ui-calendar .ui-day[for="day-18"]:before {
+
+/*#day-18:checked ~ .ui-calendar .ui-day[for="day-18"]:before {
   -webkit-transform: none;
           transform: none;
   opacity: 1;
