@@ -122,13 +122,13 @@ input[type="radio"] {
   transition-property: transform, border-color, -webkit-transform;
 }
 
-/*.ui-row {
+.ui-row {
   left: 0;
   right: 0;
   border-top-width: 1px;
 }
 
-.ui-column {
+/*.ui-column {
   top: 0;
   bottom: 0;
   border-left-width: 1px;
