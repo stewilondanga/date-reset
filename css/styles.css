@@ -384,11 +384,12 @@ input[type="radio"] {
   opacity: 1;
 }
 
-/*#day-12:checked ~ .ui-calendar .ui-day[for="day-12"] {
+#day-12:checked~.ui-calendar .ui-day[for="day-12"] {
   -webkit-transform: translate(0, 1px);
-          transform: translate(0, 1px);
+  transform: translate(0, 1px);
 }
-#day-12:checked ~ .ui-calendar .ui-day[for="day-12"]:before {
+
+/*#day-12:checked ~ .ui-calendar .ui-day[for="day-12"]:before {
   -webkit-transform: none;
           transform: none;
   opacity: 1;
