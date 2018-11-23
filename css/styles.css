@@ -631,10 +631,11 @@ input:checked~.ui-reset {
   pointer-events: auto;
 }
 
-/*.ui-calendar:focus {
+.ui-calendar:focus {
   pointer-events: auto;
 }
-.ui-calendar:focus > .ui-header {
+
+/*.ui-calendar:focus > .ui-header {
   -webkit-transform: translateX(50%);
           transform: translateX(50%);
 }
