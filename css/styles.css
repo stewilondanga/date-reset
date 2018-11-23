@@ -593,10 +593,10 @@ input[type="radio"] {
   opacity: 1;
 }
 
-/*.ui-reset {
+.ui-reset {
   position: absolute;
   -moz-appearance: none;
-       appearance: none;
+  appearance: none;
   -webkit-appearance: none;
   border: none;
   background: none;
@@ -610,7 +610,7 @@ input[type="radio"] {
   pointer-events: none;
 }
 
-input:checked ~ .ui-reset {
+/*input:checked ~ .ui-reset {
   opacity: 0.5;
   pointer-events: auto;
 }
