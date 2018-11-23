@@ -659,13 +659,14 @@ input:checked~.ui-reset {
   transition-delay: 0s;
 }
 
-/*.ui-calendar:focus .ui-day:before {
+.ui-calendar:focus .ui-day:before {
   -webkit-transform: none;
-          transform: none;
+  transform: none;
   opacity: 1;
   transition-delay: calc(0.6s + var(--day) * 20ms);
 }
-input:checked ~ .ui-calendar > .ui-header {
+
+/*input:checked ~ .ui-calendar > .ui-header {
   -webkit-transform: translateX(7.5vmin);
           transform: translateX(7.5vmin);
 }
